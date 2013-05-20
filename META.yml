@@ -1,5 +1,5 @@
 ---
-abstract: 'Plugin to Module::Build to build PDL projets'
+abstract: 'Plugin for Module::Build to compile Fortran C<.f> files'
 author:
   - 'Mark Grimes, E<lt>mgrimes@cpan.orgE<gt>'
 build_requires: {}
@@ -15,7 +15,7 @@ name: Module-Build-Pluggable-Fortran
 provides:
   Module::Build::Pluggable::Fortran:
     file: lib/Module/Build/Pluggable/Fortran.pm
-    version: 0.21
+    version: 0.22
 requires:
   ExtUtils::F77: 0
   Module::Build::Pluggable::Base: 0
@@ -23,7 +23,9 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Module-Build-Pluggable-Fortran
   license: http://dev.perl.org/licenses/
   repository: http://github.com/mvgrimes/mb-pluggable-fortran
-version: 0.21
+version: 0.22
 x_test_requires:
   IPC::Cmd: 0
+  List::MoreUtils: 0
+  Path::Class: 0
   Test::More: 0.87
