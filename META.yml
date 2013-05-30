@@ -4,7 +4,7 @@ author:
   - 'Mark Grimes, E<lt>mgrimes@cpan.orgE<gt>'
 build_requires: {}
 configure_requires:
-  Module::Build: 0.40004
+  Module::Build: 0.4005
 dynamic_config: 1
 generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.112621'
 license: perl
@@ -15,7 +15,7 @@ name: Module-Build-Pluggable-Fortran
 provides:
   Module::Build::Pluggable::Fortran:
     file: lib/Module/Build/Pluggable/Fortran.pm
-    version: 0.22
+    version: 0.23
 requires:
   ExtUtils::F77: 0
   Module::Build::Pluggable::Base: 0
@@ -23,7 +23,7 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Module-Build-Pluggable-Fortran
   license: http://dev.perl.org/licenses/
   repository: http://github.com/mvgrimes/mb-pluggable-fortran
-version: 0.22
+version: 0.23
 x_test_requires:
   IPC::Cmd: 0
   List::MoreUtils: 0

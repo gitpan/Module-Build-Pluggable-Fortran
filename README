@@ -3,7 +3,7 @@ NAME
     Fortran ".f" files
 
 VERSION
-    version 0.22
+    version 0.23
 
 SYNOPSIS
         # Build.PL
