@@ -2,7 +2,7 @@ Build.PL
 Changes
 lib/Module/Build/Pluggable/Fortran.pm
 MANIFEST			This list of files
-META.json
-META.yml
-README
 t/01-simple.t
+README
+META.yml
+META.json
